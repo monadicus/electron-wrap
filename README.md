@@ -7,7 +7,7 @@ Package any local/static website folder (typically a `/public`) into a desktop a
 To do so, `cd` to the folder that contains the files, and run:
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/thmsbfft/electron-wrap/master/wrap.sh)
+bash <(curl -s https://raw.githubusercontent.com/monadicus/electron-wrap/master/wrap.sh)
 ```
 
 The script will:

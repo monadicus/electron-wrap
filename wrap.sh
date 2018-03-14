@@ -9,9 +9,9 @@ else
   echo ""
   echo "Copying files..."
   echo ""
-  curl -O https://raw.githubusercontent.com/thmsbfft/electron-wrap/master/package.json
-  curl -O https://raw.githubusercontent.com/thmsbfft/electron-wrap/master/index-16C4D9BE52A4EB6B78A31B8D8E3E4B69CABFF4E92AAC86211505391619DE87D2.js
-  curl -O https://raw.githubusercontent.com/thmsbfft/electron-wrap/master/icon-16C4D9BE52A4EB6B78A31B8D8E3E4B69CABFF4E92AAC86211505391619DE87D2.icns
+  curl -O https://raw.githubusercontent.com/monadicus/electron-wrap/master/package.json
+  curl -O https://raw.githubusercontent.com/monadicus/electron-wrap/master/index.js
+  curl -O https://raw.githubusercontent.com/monadicus/electron-wrap/master/icon.icns
 
   # replace name in package with current directory name
   name=${PWD##*/}
@@ -29,6 +29,6 @@ else
   # cleanup
   rm package.json
   rm -rf node_modules
-  rm index-16C4D9BE52A4EB6B78A31B8D8E3E4B69CABFF4E92AAC86211505391619DE87D2.js
-  rm icon-16C4D9BE52A4EB6B78A31B8D8E3E4B69CABFF4E92AAC86211505391619DE87D2.icns
+  rm index.js
+  rm icon.icns
 fi
